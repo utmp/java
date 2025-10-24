@@ -8,7 +8,7 @@ public class index{
     //    ConstructorExample();
 
         Account acc = new Account("John Doe",500);
-        System.out.println(acc.getBalance());
+        System.out.printf("%.2f tl",acc.getBalance());
     }
      private static void ConstructorExample(){
             // Cat cat1 = new Cat();
